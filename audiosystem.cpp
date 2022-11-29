@@ -7,7 +7,7 @@ AudioSystem::AudioSystem()
 }
 void AudioSystem::playAudioMessage()
 {
-    qInfo("\nplaying Audio message ...");
+    qInfo("\nplaying Audio message Now ....");
 }
 void AudioSystem::setAudioMessage(std::string theMessage)
 {
