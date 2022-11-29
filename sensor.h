@@ -4,12 +4,8 @@
 
 class Sensor
 {
-private:
-    int nState;
 public:
     Sensor();
-    void resetSensor();
-    void setSensorOn();
 };
 
 #endif // SENSOR_H

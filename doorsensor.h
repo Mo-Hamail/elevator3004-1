@@ -1,13 +1,11 @@
 #ifndef DOORSENSOR_H
 #define DOORSENSOR_H
 
-#include "sensor.h"
 
-class DoorSensor : Sensor
+class DoorSensor
 {
 public:
     DoorSensor();
-    void sendObstacleSignal();
 };
 
 #endif // DOORSENSOR_H

@@ -1,13 +1,11 @@
 #ifndef FIRESENSOR_H
 #define FIRESENSOR_H
 
-#include "sensor.h"
 
-class FireSensor : Sensor
+class FireSensor
 {
 public:
     FireSensor();
-    void sendFireAlarmSignal();
 };
 
 #endif // FIRESENSOR_H
