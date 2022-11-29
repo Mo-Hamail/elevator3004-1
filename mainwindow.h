@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <cecs.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,5 +18,16 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    cECS mainECS;
+
+private slots:
+    void doFireProcedure();
+    void startSystem();
+    void startHelp();
+    void clearDoorInterrupt();
+    void startFireHelp();
+    void handleOverLoad();
+    void handlePowerOut();
+    void handleElevatorRequest();
 };
 #endif // MAINWINDOW_H

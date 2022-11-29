@@ -4,3 +4,7 @@ cBell::cBell()
 {
 
 }
+void cBell::Ring()
+{
+    qInfo("\nbell ding ding");
+}

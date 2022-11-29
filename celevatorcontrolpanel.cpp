@@ -4,3 +4,7 @@ cElevatorControlPanel::cElevatorControlPanel()
 {
 
 }
+void cElevatorControlPanel::PressButton()
+{
+
+}

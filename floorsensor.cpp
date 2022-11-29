@@ -4,3 +4,7 @@ FloorSensor::FloorSensor()
 {
 
 }
+int FloorSensor::getFloorNumber()
+{
+
+}
